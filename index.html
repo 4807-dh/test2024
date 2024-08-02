@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日の出と日の入りの時間</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>日の出と日の入りの時間 - 千葉県 (2024年7月)</h1>
+        <label for="dateInput">日付を入力してください（1-31の範囲）:</label>
+        <input type="number" id="dateInput" min="1" max="31">
+        <button onclick="showSunTimes()">表示</button>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
